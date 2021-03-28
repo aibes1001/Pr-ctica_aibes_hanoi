@@ -100,6 +100,51 @@ namespace Torres_de_Hanoi
             return m;
         }
 
+        public int algoritmeRecursiu(int n, Pila ini, Pila fin, Pila aux)
+        {
+            int m = 0;
+
+            if (n == 1)
+            {
+                m++;
+                mover_disco(ini, fin);
+
+                /*//Imprimir per consola
+                Console.WriteLine("Torre Ini: ");
+                print_Discos(ini);
+
+                Console.WriteLine("Torre Aux: ");
+                print_Discos(aux);
+
+                Console.WriteLine("Torre Fin: ");
+                print_Discos(fin);
+
+                Console.WriteLine("\n");**/
+            }
+            else
+            {
+                m += algoritmeRecursiu(n - 1, ini, aux, fin);
+                m++;
+                mover_disco(ini, fin);
+
+                /*//Imprimir per consola
+                Console.WriteLine("Torre Ini: ");
+                print_Discos(ini);
+
+                Console.WriteLine("Torre Aux: ");
+                print_Discos(aux);
+
+                Console.WriteLine("Torre Fin: ");
+                print_Discos(fin);
+
+                Console.WriteLine("\n");*/
+
+                m += algoritmeRecursiu(n - 1, aux, fin, ini);
+            }
+
+            return m;
+        }
+
         public void print_Discos(Pila a)
         {
             if (a.Size == 0)

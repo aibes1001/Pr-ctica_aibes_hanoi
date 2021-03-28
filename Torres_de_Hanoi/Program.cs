@@ -47,6 +47,27 @@ namespace Torres_de_Hanoi
 
             //**********************************************
 
+            /*int factorial(int n)
+            {
+                if(n == 0)
+                {
+                    return 1;
+                }
+                return factorial(n - 1) * n;
+            }
+
+            int res = factorial(nDiscos);
+            Console.WriteLine("Resultat factorial: " + res);*/
+
+            /*//Algoritme recursiu
+            Console.WriteLine("Execució de l'algoritme recursiu\n");
+            int moviments2 = h.algoritmeRecursiu(nDiscos, ini, fin, aux);
+            Console.WriteLine("Moviments: " + moviments2 + "\n");//*/
+
+            //**********************************************
+
+            //**********************************************
+
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
