@@ -1,0 +1,7 @@
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\bin\Debug\Torres_de_Hanoi.exe.config
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\bin\Debug\Torres_de_Hanoi.exe
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\bin\Debug\Torres_de_Hanoi.pdb
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.csprojAssemblyReference.cache
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.csproj.CoreCompileInputs.cache
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.exe
+D:\aibes\2n\2n Quatrimestre\Algorítmica\Practicas\P1\Torres_hanoi\Pr-ctica_aibes_hanoi\Torres_de_Hanoi\obj\Debug\Torres_de_Hanoi.pdb
