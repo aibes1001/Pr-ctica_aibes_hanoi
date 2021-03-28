@@ -13,6 +13,18 @@ namespace Torres_de_Hanoi
         public int Valor { get; set; }
         public String Valor { get; set; }
         */
+        private int valor;
+
+        public int Valor
+        {
+            get { return valor; }
+            set { valor = value; }
+        }
+
+        public Disco(int valor)
+        {
+            Valor = valor;
+        }
 
     }
 }
