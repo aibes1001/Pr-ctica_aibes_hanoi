@@ -15,17 +15,17 @@ namespace Torres_de_Hanoi
             if (a.isEmpty() || (!b.isEmpty() && (b.Top < a.Top)))
             {
                 Console.WriteLine("Moure disc " + b.Top + " de Torre " + b.Nom + " a Torre " + a.Nom);
-                Disco d = new Disco(b.Top);
+                Disco d = b.pop();
                 a.push(d);
-                b.pop();
+                
             }
 
             else if (b.isEmpty() || (!a.isEmpty() && (a.Top < b.Top)))
             {
                 Console.WriteLine("Moure disc " + a.Top + " de Torre " + a.Nom + " a Torre " + b.Nom);
-                Disco d = new Disco(a.Top);
+                Disco d = a.pop();
                 b.push(d);
-                a.pop();
+                
             }
 
         }

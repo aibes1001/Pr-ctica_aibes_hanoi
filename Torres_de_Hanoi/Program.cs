@@ -15,15 +15,15 @@ namespace Torres_de_Hanoi
 
             //Preguntar el mètode de resolució escollit
             while(metode != 1 && metode != 2){
-                Console.WriteLine("Escollix mètode:\n ");
-                Console.WriteLine("1. Mètode iteratiu\n ");
-                Console.WriteLine("2. Mètode recursiu\n");
+                Console.WriteLine("Escollix mètode:");
+                Console.WriteLine("1. Mètode iteratiu ");
+                Console.WriteLine("2. Mètode recursiu");
               
                 metode = Int32.Parse(Console.ReadLine());
                 Console.WriteLine("\n ");
 
                 if(metode != 1 && metode != 2){
-                    Console.WriteLine("Introdueix el nº del mètode escollit\n ");
+                    Console.WriteLine("Introdueix el nº del mètode\n ");
                 }
 
             }
@@ -31,10 +31,14 @@ namespace Torres_de_Hanoi
             //Números de discos escollits
             Console.WriteLine("Introduix el número de discos: ");
             int nDiscos = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("\n ");
 
+            //Acabar el joc si el nº de discos és 0 o inferior
             if(nDiscos <= 0){
                 Console.WriteLine("Impossible jugar. Número de discos no pot ser inferior o igual.\n");
                 Console.ReadKey();
+
+
             }else{
                 //Crear llista de discos 
                 List<Disco> l = new List<Disco>();

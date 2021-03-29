@@ -71,12 +71,13 @@ namespace Torres_de_Hanoi
         //Eliminar disc de la List<Disco>, i indicar el següent Top
         public Disco pop()
         {
+            Disco d = Elementos[Elementos.Count-1];
             Elementos.RemoveAt(Elementos.Count - 1);
             Size = Elementos.Count;
             if (this.isEmpty()) Top = 0;
             else Top = Elementos[Elementos.Count - 1].Valor;
 
-            return null;
+            return d;
         }
 
 

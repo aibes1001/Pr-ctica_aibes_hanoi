@@ -16,8 +16,7 @@ namespace Torres_de_Hanoi
 
         public int Valor
         {
-            get;
-            set;
+            get; set;
         }
 
         public Disco(int valor)
