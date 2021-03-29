@@ -109,17 +109,17 @@ namespace Torres_de_Hanoi
                 m++;
                 mover_disco(ini, fin);
 
-                /*//Imprimir per consola
-                Console.WriteLine("Torre Ini: ");
+                //Imprimir per consola
+                Console.WriteLine("Torre " + ini.Nom + ": ");
                 print_Discos(ini);
 
-                Console.WriteLine("Torre Aux: ");
+                Console.WriteLine("Torre " + aux.Nom + ": ");
                 print_Discos(aux);
 
-                Console.WriteLine("Torre Fin: ");
+                Console.WriteLine("Torre " + fin.Nom + ": ");
                 print_Discos(fin);
 
-                Console.WriteLine("\n");**/
+                Console.WriteLine("\n");//*/
             }
             else
             {
@@ -127,17 +127,17 @@ namespace Torres_de_Hanoi
                 m++;
                 mover_disco(ini, fin);
 
-                /*//Imprimir per consola
-                Console.WriteLine("Torre Ini: ");
+                //Imprimir per consola
+                Console.WriteLine("Torre " + ini.Nom + ": ");
                 print_Discos(ini);
 
-                Console.WriteLine("Torre Aux: ");
+                Console.WriteLine("Torre " + aux.Nom + ": ");
                 print_Discos(aux);
 
-                Console.WriteLine("Torre Fin: ");
+                Console.WriteLine("Torre " + fin.Nom + ": ");
                 print_Discos(fin);
 
-                Console.WriteLine("\n");*/
+                Console.WriteLine("\n");//*/
 
                 m += algoritmeRecursiu(n - 1, aux, fin, ini);
             }
